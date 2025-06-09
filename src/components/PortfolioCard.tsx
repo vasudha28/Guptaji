@@ -12,7 +12,12 @@ const PortfolioCard = ({ name, description, image, redirectPath }: PortfolioCard
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(redirectPath);
+    // Check if the path is an external URL
+    if (redirectPath.startsWith('http://') || redirectPath.startsWith('https://')) {
+      window.open(redirectPath, '_blank', 'noopener,noreferrer');
+    } else {
+      navigate(redirectPath);
+    }
   };
 
   return (
@@ -21,7 +26,7 @@ const PortfolioCard = ({ name, description, image, redirectPath }: PortfolioCard
       onClick={handleClick}
     >
       <CardContent className="p-6">
-        <div className="w-16 h-16 rounded-lg flex items-center justify-center mb-4 overflow-hidden">
+        <div className="w-160 h-160 rounded-lg flex items-center justify-center mb-4 overflow-hidden">
           <img 
             src={image} 
             alt={`${name} logo`} 

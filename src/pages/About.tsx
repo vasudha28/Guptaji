@@ -1,5 +1,6 @@
 import { User, Target, Clock, MapPin, Users, Lightbulb } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
+import ProfileCard from '@/components/ProfileCard';
 
 const About = () => {
   const aboutSections = [
@@ -108,6 +109,60 @@ const About = () => {
                     <div className="w-2 h-2 bg-gold-500 rounded-full mr-3"></div>
                     <span className="text-gray-700">Headstart Network Contributor</span>
                   </div>
+                </div>
+              </div>
+            </div>
+            {/* Inspiration Section */}
+            <div className="mt-20 mb-8 flex flex-col items-center">
+              <div className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Our Inspiration</div>
+              <div className="w-24 h-1 bg-gold-500 mx-auto"></div>
+              <div className="w-full max-w-6xl bg-white rounded-xl flex justify-center items-center py-16 px-4 md:px-0 mx-auto">
+                <ProfileCard
+                  image="/images/Sriharsha Majety.jpg"
+                  name="Sriharsha Majety"
+                  title="CEO and Co-founder at Swiggy"
+                  linkedinUrl="https://www.linkedin.com/in/sriharsha-majety-1b1a1b17/"
+                />
+              </div>
+            </div>
+
+            {/* Advisors Section - now directly below Our Inspiration */}
+            <div className="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] bg-gray-200 py-16 px-2 md:px-8 mb-20">
+              <div className="max-w-7xl mx-auto">
+                <div className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Advisors</div>
+                <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 justify-items-center">
+                  <ProfileCard
+                    image="/images/Advisors/Lax Chepuri.jpeg"
+                    name="Lax Chepuri"
+                    title="CEO at Technogen"
+                    linkedinUrl="https://www.linkedin.com/in/laxchepuri/"
+                  />
+                  <ProfileCard
+                    image="/images/Advisors/Ravi Korukonda.jpeg"
+                    name="Ravi Korukonda"
+                    title="Technology Entrepreneur"
+                    linkedinUrl="https://www.linkedin.com/in/ravikorukonda/"
+                  />
+                  <ProfileCard
+                    image="/images/Advisors/Gadi Venugopala Rao.jpeg"
+                    name="Gadi Venugopala Rao"
+                    title="Director - Tax Advisory"
+                    subtitle="Fox Mandal and Associates\nEx IRS Officer."
+                    linkedinUrl="https://www.linkedin.com/in/gadi-venugopala-rao/"
+                  />
+                  <ProfileCard
+                    image="/images/Advisors/Chaitanya Kumar Lingamallu.jpeg"
+                    name="Chaitanya Kumar Lingamallu"
+                    title="Co-Founder & CMD"
+                    subtitle="The Chocolate Room India"
+                    linkedinUrl="https://www.linkedin.com/in/chaitanya-kumar-lingamallu/"
+                  />
+                  <ProfileCard
+                    image="/images/Advisors/Rajesh Dhuddu.jpeg"
+                    name="Rajesh Dhuddu"
+                    title="Emerging Tech Leader - Tech Mahindra"
+                    linkedinUrl="https://www.linkedin.com/in/rajeshdhuddu/"
+                  />
                 </div>
               </div>
             </div>

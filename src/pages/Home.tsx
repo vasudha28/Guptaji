@@ -8,47 +8,147 @@ const Home = () => {
     {
       name: "Startoon Labs",
       description: "Medical device company focused on R&D and manufacturing of innovative healthcare solutions.",
-      image: "", // Add your image URL here
-      redirectPath: "/portfolio/startoon-labs"
+      image: "public/images/startups/Startoon Labs.jpeg", // Add your image URL here
+      redirectPath: "https://www.startoonlabs.com/"
     },
     {
       name: "Exprs",
       description: "Enhances last-mile delivery efficiency for eCommerce brands with smart logistics solutions.",
-      image: "", // Add your image URL here
+      image: "public/images/startups/exprs.jpeg", // Add your image URL here
       redirectPath: "/portfolio/exprs"
     },
     {
       name: "Cloud Tailor",
       description: "Personalized fashion solutions platform for women offering custom-fit clothing.",
-      image: "", // Add your image URL here
-      redirectPath: "/portfolio/cloud-tailor"
+      image: "public/images/startups/cloud tailor.jpeg", // Add your image URL here
+      redirectPath: "https://www.cloudtailor.com/"
     },
     {
       name: "Settlin",
       description: "Online brokerage service for residential properties simplifying real estate transactions.",
-      image: "", // Add your image URL here
-      redirectPath: "/portfolio/settlin"
+      image: "public/images/startups/Settlin.jpeg", // Add your image URL here
+      redirectPath: "https://settlin.in/"
     },
     {
       name: "Dial4242",
       description: "App-based ambulance network for emergency care providing 24/7 medical assistance.",
-      image: "", // Add your image URL here
-      redirectPath: "/portfolio/dial4242"
+      image: "public/images/startups/Dail4242.jpeg", // Add your image URL here
+      redirectPath: "https://www.dial4242.com/"
     },
     {
       name: "TakeMe2Space",
       description: "Building orbital infrastructure accessible to all for the future of space technology.",
-      image: "", // Add your image URL here
-      redirectPath: "/portfolio/takeme2space"
+      image: "public/images/startups/Takemespace.jpeg", // Add your image URL here
+      redirectPath: "https://www.tm2.space/"
+    },
+    {
+      name: "Jarsh",
+      description: "Jarsh is an innovation driven company involved in the development of Smart Wearables for various Industries.",
+      image: "public/images/startups/Jarsh.jpeg", // Add your image URL here
+      redirectPath: "https://jarshsafety.com/"
     }
   ];
 
   const partners = [
-    "T-Hub", "Headstart", "VJIM", "TITA", "Startup Hyderabad"
+    {
+      image: "public/images/Partners/Chitkara.png",
+      url: "https://www.chitkara.edu.in/"
+    },
+    {
+      image: "public/images/Partners/E cell  hyderabad.png",
+      url: "https://ecellhyderabad.org/"
+    },
+    {
+      image: "public/images/Partners/Ecell Calcutta.jpeg",
+      url: "https://ecellcalcutta.org/"
+    },
+    {
+      image: "public/images/Partners/free flow.jpeg",
+      url: "#"
+    },
+    {
+      image: "public/images/Partners/Headstart.png",
+      url: "https://headstart.in/"
+    },
+    {
+      image: "public/images/Partners/IIIT Hyderabad.png",
+      url: "https://www.iiit.ac.in/"
+    },
+    {
+      image: "public/images/Partners/iit kanpur.jpeg",
+      url: "https://www.iitk.ac.in/"
+    },
+    {
+      image: "public/images/Partners/Startup Leadership.png",
+      url: "https://www.startupleadership.com/"
+    },
+    {
+      image: "public/images/Partners/thub.jpeg",
+      url: "https://t-hub.co/"
+    },
+    {
+      image: "public/images/Partners/VJIM.png",
+      url: "https://www.vjim.edu.in/"
+    },
+    {
+      image: "public/images/Partners/XLRI.jpeg",
+      url: "https://www.xlri.ac.in/"
+    },
+    {
+      image: "public/images/Partners/osmania.jpg",
+      url: "https://www.osmania.ac.in/"
+    },
+    {
+      image: "public/images/Partners/iim lucknow.jpg",
+      url: "https://www.iiml.ac.in/"
+    }
   ];
 
   const mediaFeatures = [
-    "TV5 News", "The Hindu BusinessLine", "The Times of India", "Finance Magazine"
+    {
+      image: "public/images/featured on/Zee Bussiness.jpeg",
+      url: "https://youtu.be/DfI3HjWG_XI?si=mNupN_PS_4MD_r2I"
+    },
+    {
+      image: "public/images/featured on/bussiness line.png",
+      url: "https://www.thehindubusinessline.com/info-tech/guptaji-invests-ties-up-with-t-hub/article65707509.ece"
+    },
+    {
+      image: "public/images/featured on/wion.jpeg",
+      url: "https://www.wionews.com/business-economy/india-budget-2024-what-startups-expect-from-finance-minister-nirmala-sitharaman-685459"
+    },
+    {
+      image: "public/images/featured on/TV news 5.jpeg",
+      url: "https://youtu.be/bZPbRVKtkdo?si=bCmXWTtOHHK7puz3"
+    },
+    {
+      image: "public/images/featured on/The times of India.jpeg",
+      url: "https://timesofindia.indiatimes.com/city/hyderabad/t-hub-inks-mou-with-guptaji-invests/articleshow/93286259.cms"
+    },
+    {
+      image: "public/images/featured on/Startup Story.jpeg",
+      url: "https://startupstorymedia.com/insights-guptaji-invests-accelerates-startups-visions-with-strategic-investments-in-startoon-labs-and-exprs/"
+    },
+    {
+      image: "public/images/featured on/Startup hyd.jpeg",
+      url: "https://startuphyderabad.com/guptajiinvests-makes-strategic-investments-in-startoon-labs-and-exprs/"
+    },
+    {
+      image: "public/images/featured on/NTV.jpeg",
+      url: "https://youtu.be/jMNvVkKJgq0?si=31BA0f3SoHJeOSxo"
+    },
+    {
+      image: "public/images/featured on/EEnadu.jpeg",
+      url: "https://www.facebook.com/share/1Py9Uyb7te/"
+    },
+    {
+      image: "public/images/featured on/DH.jpeg",
+      url: "https://www.deccanherald.com/business/companies/bad-investments-widen-byju-s-losses-by-81-to-rs-8-370-crore-in-fy22-2861308"
+    },
+    {
+      image: "public/images/featured on/CNBC tv 18.jpeg",
+      url: "https://www.cnbctv18.com/business/settlin-raises-undisclosed-amount-from-vcs-including-powerhouse-ventures-18351121.htm"
+    }
   ];
 
   const fundraisingSteps = [
@@ -169,10 +269,19 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center">
             {partners.map((partner, index) => (
-              <div key={partner} className="text-center animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
-                <div className="bg-gray-100 p-6 rounded-lg hover:bg-gray-200 transition-colors">
-                  <h3 className="font-semibold text-gray-800">{partner}</h3>
-                </div>
+              <div key={index} className="text-center animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
+                <a 
+                  href={partner.url} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block bg-white p-6 rounded-lg hover:shadow-lg transition-all duration-300"
+                >
+                  <img 
+                    src={partner.image} 
+                    alt="Partner Logo" 
+                    className="h-16 w-auto mx-auto object-contain transition-all duration-300"
+                  />
+                </a>
               </div>
             ))}
           </div>
@@ -180,18 +289,27 @@ const Home = () => {
       </section>
 
       {/* Featured On Section */}
-      <section className="py-16 bg-gray-900 text-white">
+      <section className="py-16 bg-gray-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured On</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Featured On</h2>
             <div className="w-24 h-1 bg-gold-500 mx-auto"></div>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
             {mediaFeatures.map((media, index) => (
-              <div key={media} className="text-center animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
-                <div className="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition-colors">
-                  <h3 className="font-semibold text-white">{media}</h3>
-                </div>
+              <div key={index} className="text-center animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
+                <a 
+                  href={media.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block bg-white p-6 rounded-lg hover:shadow-lg transition-all duration-300"
+                >
+                  <img 
+                    src={media.image} 
+                    alt="Media Logo" 
+                    className="h-16 w-auto mx-auto object-contain transition-all duration-300"
+                  />
+                </a>
               </div>
             ))}
           </div>
