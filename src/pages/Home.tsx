@@ -1,4 +1,3 @@
-
 import HeroSection from '@/components/HeroSection';
 import PortfolioCard from '@/components/PortfolioCard';
 import { Card, CardContent } from '@/components/ui/card';
@@ -8,27 +7,39 @@ const Home = () => {
   const portfolioCompanies = [
     {
       name: "Startoon Labs",
-      description: "Medical device company focused on R&D and manufacturing of innovative healthcare solutions."
+      description: "Medical device company focused on R&D and manufacturing of innovative healthcare solutions.",
+      image: "", // Add your image URL here
+      redirectPath: "/portfolio/startoon-labs"
     },
     {
       name: "Exprs",
-      description: "Enhances last-mile delivery efficiency for eCommerce brands with smart logistics solutions."
+      description: "Enhances last-mile delivery efficiency for eCommerce brands with smart logistics solutions.",
+      image: "", // Add your image URL here
+      redirectPath: "/portfolio/exprs"
     },
     {
       name: "Cloud Tailor",
-      description: "Personalized fashion solutions platform for women offering custom-fit clothing."
+      description: "Personalized fashion solutions platform for women offering custom-fit clothing.",
+      image: "", // Add your image URL here
+      redirectPath: "/portfolio/cloud-tailor"
     },
     {
       name: "Settlin",
-      description: "Online brokerage service for residential properties simplifying real estate transactions."
+      description: "Online brokerage service for residential properties simplifying real estate transactions.",
+      image: "", // Add your image URL here
+      redirectPath: "/portfolio/settlin"
     },
     {
       name: "Dial4242",
-      description: "App-based ambulance network for emergency care providing 24/7 medical assistance."
+      description: "App-based ambulance network for emergency care providing 24/7 medical assistance.",
+      image: "", // Add your image URL here
+      redirectPath: "/portfolio/dial4242"
     },
     {
       name: "TakeMe2Space",
-      description: "Building orbital infrastructure accessible to all for the future of space technology."
+      description: "Building orbital infrastructure accessible to all for the future of space technology.",
+      image: "", // Add your image URL here
+      redirectPath: "/portfolio/takeme2space"
     }
   ];
 

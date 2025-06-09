@@ -1,4 +1,3 @@
-
 import { User, Target, Clock, MapPin, Users, Lightbulb } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -78,8 +77,13 @@ const About = () => {
           <div className="bg-gray-50 rounded-2xl p-8 md:p-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="animate-slide-in">
-                <div className="w-32 h-32 bg-primary-600 rounded-full flex items-center justify-center mx-auto lg:mx-0 mb-6">
-                  <span className="text-4xl font-bold text-white">RT</span>
+                <div className="w-80 h-80 bg-white rounded-lg flex items-center justify-center mx-auto lg:mx-0 mb-6 overflow-hidden shadow-2xl">
+                  <img 
+                    src="/images/founder.png" 
+                    alt="Ravi Teja Gupta" 
+                    className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
+                    loading="eager"
+                  />
                 </div>
               </div>
               

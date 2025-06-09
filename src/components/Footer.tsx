@@ -43,15 +43,25 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Phone size={16} className="mr-2 text-gold-500" />
-                <span className="text-gray-300">+91 9876543210</span>
+                <span className="text-gray-300">+91 8333912345,</span>
+                <br></br>
+                <span className="text-gray-300">  +91 8333854123 </span>
               </div>
               <div className="flex items-center">
                 <Mail size={16} className="mr-2 text-gold-500" />
-                <span className="text-gray-300">info@guptajiinvests.in</span>
+                <span className="text-gray-300">founder@guptajiinvests.in</span>
               </div>
               <div className="flex items-center">
-                <MapPin size={16} className="mr-2 text-gold-500" />
-                <span className="text-gray-300">Hyderabad, India</span>
+                <Mail size={16} className="mr-2 text-gold-500" />
+                <span className="text-gray-300">guptajiinvests@gmail.com</span>
+              </div>
+              <div className="flex items-center">
+                <MapPin size={50} className="mr-2 text-gold-500" />
+                <span className="text-gray-300">  Guptaji invests,
+                                                  Right Rewards Private Limited,
+                                                  T-Hub Phase 2, Madhapur, Hitech City, Hyderabad,
+                                                  Telangana, India.
+                </span>
               </div>
             </div>
           </div>
@@ -59,7 +69,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 Guptaji Invests. All rights reserved.
+            © 2024 Guptaji invests. All rights reserved.
           </p>
         </div>
       </div>

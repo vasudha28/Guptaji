@@ -1,4 +1,3 @@
-
 import { Users, TrendingUp, Shield, Award, Building, UserCheck } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -47,7 +46,11 @@ const Investors = () => {
           <p className="text-xl text-blue-100 max-w-3xl mx-auto mb-8 animate-fade-in">
             Join our network of 100+ angel investors and be part of India's strategic investment revolution
           </p>
-          <Button size="lg" className="bg-gold-500 hover:bg-gold-600 text-white px-8 py-3 text-lg animate-fade-in">
+          <Button 
+            size="lg" 
+            className="bg-gold-500 hover:bg-gold-600 text-white px-8 py-3 text-lg animate-fade-in"
+            onClick={() => window.open('https://docs.google.com/forms/d/1qDpZxrzDgVb9FHhc1sdehHFQovE52H8VR_EOXXUJ0eA/viewform?edit_requested=true&pli=1', '_blank')}
+          >
             Become an Investor
           </Button>
         </div>
@@ -172,7 +175,11 @@ const Investors = () => {
             Join our exclusive network of angel investors and be part of the next generation of successful startups
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
-            <Button size="lg" className="bg-gold-500 hover:bg-gold-600 text-white px-8 py-3">
+            <Button 
+              size="lg" 
+              className="bg-gold-500 hover:bg-gold-600 text-white px-8 py-3"
+              onClick={() => window.open('https://docs.google.com/forms/d/1qDpZxrzDgVb9FHhc1sdehHFQovE52H8VR_EOXXUJ0eA/viewform?edit_requested=true&pli=1', '_blank')}
+            >
               Apply Now
             </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3">
