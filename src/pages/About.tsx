@@ -129,7 +129,7 @@ const About = () => {
             {/* Advisors Section - now directly below Our Inspiration */}
             <div className="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] bg-gray-200 py-16 px-2 md:px-8 mb-20">
               <div className="max-w-7xl mx-auto">
-                <div className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Advisors</div>
+                <div className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Our Advisors</div>
                 <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 justify-items-center">
                   <ProfileCard
                     image="/images/Advisors/Lax Chepuri.jpeg"
@@ -162,6 +162,94 @@ const About = () => {
                     name="Rajesh Dhuddu"
                     title="Emerging Tech Leader - Tech Mahindra"
                     linkedinUrl="https://www.linkedin.com/in/rajeshdhuddu/"
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Key People Section - below Advisors */}
+            <div className="w-screen relative left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] bg-gray-200 py-16 px-2 md:px-8 mb-20">
+              <div className="max-w-7xl mx-auto">
+                <div className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">Our Key People</div>
+                <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-12 justify-items-center">
+                  <ProfileCard
+                    image="/images/key people/Nishant Chintawar.jpeg"
+                    name="Nishant Chintawar"
+                    title="Sai Agro Industries"
+                    linkedinUrl="https://www.linkedin.com/in/nishant-chintawar/"
+                  />
+                  <ProfileCard
+                    image="/images/key people/Abhinav Guptha.jpeg"
+                    name="Abhinav Gupta"
+                    title="Vice President - Innovation"
+                    subtitle="Broadridge"
+                    linkedinUrl="https://www.linkedin.com/in/abhinav-gupta/"
+                  />
+                  <ProfileCard
+                    image="/images/key people/Prithvi Chaithanya K.jpeg"
+                    name="Prithvi Chaithanya K"
+                    title="Head of Innovation Programs"
+                    subtitle="Hexagon Capability Center India"
+                    linkedinUrl="https://www.linkedin.com/in/prithvi-chaithanya-k/"
+                  />
+                  <ProfileCard
+                    image="/images/key people/Sai Abhinay Chepuri.jpeg"
+                    name="Sai Abhinay Chepuri"
+                    title="Startup Innovation"
+                    subtitle="T-Hub"
+                    linkedinUrl="https://www.linkedin.com/in/sai-abhinay-chepuri/"
+                  />
+                  <ProfileCard
+                    image="/images/key people/Pavan Adipuram.jpeg"
+                    name="Pavan Adipuram"
+                    title="Founding Partner and CEO"
+                    subtitle="Pangenia Global Services"
+                    linkedinUrl="https://www.linkedin.com/in/pavanadipuram/"
+                  />
+                  <ProfileCard
+                    image="/images/key people/Sanyasi Rao Vuppala (2).jpeg"
+                    name="Sanyasi Rao Vuppala"
+                    title="MC Member of the Federation of Telangana and Andhra Pradesh"
+                    linkedinUrl="https://www.linkedin.com/in/sanyasi-rao-vuppala/"
+                  />
+                  <ProfileCard
+                    image="/images/key people/CA Rajesh Donkeshwar.jpeg"
+                    name="CA Rajesh Donkeshwar"
+                    title="Director"
+                    subtitle="HOLISTIC CORPORTE ADVISORS"
+                    linkedinUrl="https://www.linkedin.com/in/ca-rajesh-donkeshwar/"
+                  />
+                  <ProfileCard
+                    image="/images/key people/R P Ravishanker.jpeg"
+                    name="R P Ravishanker"
+                    title="Founding Partner and Managing Director"
+                    subtitle="of S R R & Co"
+                    linkedinUrl="https://www.linkedin.com/in/r-p-ravishanker/"
+                  />
+                  <ProfileCard
+                    image="/images/key people/MNR Gupta.jpeg"
+                    name="MNR Gupta"
+                    title="CEO Global for Ritzy Schools"
+                    linkedinUrl="https://www.linkedin.com/in/mnr-gupta/"
+                  />
+                  <ProfileCard
+                    image="/images/key people/Ramchandram Dhannarapu.jpeg"
+                    name="Ramchandram Dhannarapu"
+                    title="Solus Media"
+                    linkedinUrl="https://www.linkedin.com/in/ramchandram-dhannarapu/"
+                  />
+                  <ProfileCard
+                    image="/images/key people/Anil Kumar Padakanti.jpeg"
+                    name="Anil Kumar Padakanti"
+                    title="Director Of Sales and Marketing"
+                    subtitle="UNIVERSAL WATER CHEMICALS"
+                    linkedinUrl="https://www.linkedin.com/in/anil-kumar-padakanti/"
+                  />
+                  <ProfileCard
+                    image="/images/key people/Puvvada Seshadri.jpeg"
+                    name="Puvvada Seshadri"
+                    title="Businessman"
+                    linkedinUrl="https://www.linkedin.com/in/puvvada-seshadri/"
                   />
                 </div>
               </div>
