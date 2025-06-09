@@ -8,145 +8,145 @@ const Home = () => {
     {
       name: "Startoon Labs",
       description: "Medical device company focused on R&D and manufacturing of innovative healthcare solutions.",
-      image: "public/images/startups/Startoon Labs.jpeg", // Add your image URL here
+      image: "/images/startups/Startoon Labs.jpeg", // Add your image URL here
       redirectPath: "https://www.startoonlabs.com/"
     },
     {
       name: "Exprs",
       description: "Enhances last-mile delivery efficiency for eCommerce brands with smart logistics solutions.",
-      image: "public/images/startups/exprs.jpeg", // Add your image URL here
+      image: "/images/startups/exprs.jpeg", // Add your image URL here
       redirectPath: "/portfolio/exprs"
     },
     {
       name: "Cloud Tailor",
       description: "Personalized fashion solutions platform for women offering custom-fit clothing.",
-      image: "public/images/startups/cloud tailor.jpeg", // Add your image URL here
+      image: "/images/startups/cloud tailor.jpeg", // Add your image URL here
       redirectPath: "https://www.cloudtailor.com/"
     },
     {
       name: "Settlin",
       description: "Online brokerage service for residential properties simplifying real estate transactions.",
-      image: "public/images/startups/Settlin.jpeg", // Add your image URL here
+      image: "/images/startups/Settlin.jpeg", // Add your image URL here
       redirectPath: "https://settlin.in/"
     },
     {
       name: "Dial4242",
       description: "App-based ambulance network for emergency care providing 24/7 medical assistance.",
-      image: "public/images/startups/Dail4242.jpeg", // Add your image URL here
+      image: "/images/startups/Dail4242.jpeg", // Add your image URL here
       redirectPath: "https://www.dial4242.com/"
     },
     {
       name: "TakeMe2Space",
       description: "Building orbital infrastructure accessible to all for the future of space technology.",
-      image: "public/images/startups/Takemespace.jpeg", // Add your image URL here
+      image: "/images/startups/Takemespace.jpeg", // Add your image URL here
       redirectPath: "https://www.tm2.space/"
     },
     {
       name: "Jarsh",
       description: "Jarsh is an innovation driven company involved in the development of Smart Wearables for various Industries.",
-      image: "public/images/startups/Jarsh.jpeg", // Add your image URL here
+      image: "/images/startups/Jarsh.jpeg", // Add your image URL here
       redirectPath: "https://jarshsafety.com/"
     }
   ];
 
   const partners = [
     {
-      image: "public/images/Partners/Chitkara.png",
+      image: "/images/Partners/Chitkara.png",
       url: "https://www.chitkara.edu.in/"
     },
     {
-      image: "public/images/Partners/E cell  hyderabad.png",
+      image: "/images/Partners/E cell  hyderabad.png",
       url: "https://ecellhyderabad.org/"
     },
     {
-      image: "public/images/Partners/Ecell Calcutta.jpeg",
+      image: "/images/Partners/Ecell Calcutta.jpeg",
       url: "https://ecellcalcutta.org/"
     },
     {
-      image: "public/images/Partners/free flow.jpeg",
+      image: "/images/Partners/free flow.jpeg",
       url: "#"
     },
     {
-      image: "public/images/Partners/Headstart.png",
+      image: "/images/Partners/Headstart.png",
       url: "https://headstart.in/"
     },
     {
-      image: "public/images/Partners/IIIT Hyderabad.png",
+      image: "/images/Partners/IIIT Hyderabad.png",
       url: "https://www.iiit.ac.in/"
     },
     {
-      image: "public/images/Partners/iit kanpur.jpeg",
+      image: "/images/Partners/iit kanpur.jpeg",
       url: "https://www.iitk.ac.in/"
     },
     {
-      image: "public/images/Partners/Startup Leadership.png",
+      image: "/images/Partners/Startup Leadership.png",
       url: "https://www.startupleadership.com/"
     },
     {
-      image: "public/images/Partners/thub.jpeg",
+      image: "/images/Partners/thub.jpeg",
       url: "https://t-hub.co/"
     },
     {
-      image: "public/images/Partners/VJIM.png",
+      image: "/images/Partners/VJIM.png",
       url: "https://www.vjim.edu.in/"
     },
     {
-      image: "public/images/Partners/XLRI.jpeg",
+      image: "/images/Partners/XLRI.jpeg",
       url: "https://www.xlri.ac.in/"
     },
     {
-      image: "public/images/Partners/osmania.jpg",
+      image: "/images/Partners/osmania.jpg",
       url: "https://www.osmania.ac.in/"
     },
     {
-      image: "public/images/Partners/iim lucknow.jpg",
+      image: "/images/Partners/iim lucknow.jpg",
       url: "https://www.iiml.ac.in/"
     }
   ];
 
   const mediaFeatures = [
     {
-      image: "public/images/featured on/Zee Bussiness.jpeg",
+      image: "/images/featured on/Zee Bussiness.jpeg",
       url: "https://youtu.be/DfI3HjWG_XI?si=mNupN_PS_4MD_r2I"
     },
     {
-      image: "public/images/featured on/bussiness line.png",
+      image: "/images/featured on/bussiness line.png",
       url: "https://www.thehindubusinessline.com/info-tech/guptaji-invests-ties-up-with-t-hub/article65707509.ece"
     },
     {
-      image: "public/images/featured on/wion.jpeg",
+      image: "/images/featured on/wion.jpeg",
       url: "https://www.wionews.com/business-economy/india-budget-2024-what-startups-expect-from-finance-minister-nirmala-sitharaman-685459"
     },
     {
-      image: "public/images/featured on/TV news 5.jpeg",
+      image: "/images/featured on/TV news 5.jpeg",
       url: "https://youtu.be/bZPbRVKtkdo?si=bCmXWTtOHHK7puz3"
     },
     {
-      image: "public/images/featured on/The times of India.jpeg",
+      image: "/images/featured on/The times of India.jpeg",
       url: "https://timesofindia.indiatimes.com/city/hyderabad/t-hub-inks-mou-with-guptaji-invests/articleshow/93286259.cms"
     },
     {
-      image: "public/images/featured on/Startup Story.jpeg",
+      image: "/images/featured on/Startup Story.jpeg",
       url: "https://startupstorymedia.com/insights-guptaji-invests-accelerates-startups-visions-with-strategic-investments-in-startoon-labs-and-exprs/"
     },
     {
-      image: "public/images/featured on/Startup hyd.jpeg",
+      image: "/images/featured on/Startup hyd.jpeg",
       url: "https://startuphyderabad.com/guptajiinvests-makes-strategic-investments-in-startoon-labs-and-exprs/"
     },
     {
-      image: "public/images/featured on/NTV.jpeg",
+      image: "/images/featured on/NTV.jpeg",
       url: "https://youtu.be/jMNvVkKJgq0?si=31BA0f3SoHJeOSxo"
     },
     {
-      image: "public/images/featured on/EEnadu.jpeg",
+      image: "/images/featured on/EEnadu.jpeg",
       url: "https://www.facebook.com/share/1Py9Uyb7te/"
     },
     {
-      image: "public/images/featured on/DH.jpeg",
+      image: "/images/featured on/DH.jpeg",
       url: "https://www.deccanherald.com/business/companies/bad-investments-widen-byju-s-losses-by-81-to-rs-8-370-crore-in-fy22-2861308"
     },
     {
-      image: "public/images/featured on/CNBC tv 18.jpeg",
+      image: "/images/featured on/CNBC tv 18.jpeg",
       url: "https://www.cnbctv18.com/business/settlin-raises-undisclosed-amount-from-vcs-including-powerhouse-ventures-18351121.htm"
     }
   ];
